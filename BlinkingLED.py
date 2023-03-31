@@ -8,8 +8,8 @@ import time
 #Configure GPIO in Raspberry Pi BCM Mode
 GPIO.setmode(GPIO.BCM) 
 #Configure GPIO Pin 17 as output
-a=5
-while a>0
+a=0
+while a<=5
 GPIO.setup(17,GPIO.OUT) 
 #Set GPIO Pin to High
 GPIO.output(17,GPIO.HIGH)
@@ -17,4 +17,5 @@ GPIO.output(17,GPIO.HIGH)
 time.sleep(1)
 #Set GPIO Pin to Low
 GPIO.output(17,GPIO.LOW)
-time.sleep(2)
+a=+
+time.sleep(1)
