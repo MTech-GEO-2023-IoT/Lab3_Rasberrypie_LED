@@ -17,5 +17,5 @@ GPIO.output(17,GPIO.HIGH)
 time.sleep(1)
 #Set GPIO Pin to Low
 GPIO.output(17,GPIO.LOW)
-a=+
+a++
 time.sleep(1)
