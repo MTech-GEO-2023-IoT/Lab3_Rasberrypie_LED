@@ -11,7 +11,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(17,GPIO.OUT) 
 #Set GPIO Pin to High
 a=0
-while a<=7
+while a<=7:
   GPIO.output(17,GPIO.HIGH)
 #Wait for 1sec
   time.sleep(1)
